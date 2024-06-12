@@ -3,7 +3,7 @@
   "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest.json",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "Blank Manifest" ]
+    "fr" : [ "Cartes postales de la Sorbonne" ]
   },
   "items" : [ {
     "id" : "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
@@ -11,7 +11,7 @@
     "height" : 510,
     "width" : 800,
     "label" : {
-      "none" : [ "La Sorbonne. Faculté des lettres : Bibliothèque Albert-Dumont" ]
+      "fr" : [ "La Sorbonne. Faculté des lettres : Bibliothèque Albert-Dumont" ]
     },
     "items" : [ {
       "id" : "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc/annotation-page/25d29b33-78a7-49bb-9f47-5a38e69c247d",
@@ -36,7 +36,7 @@
     "height" : 529,
     "width" : 800,
     "label" : {
-      "none" : [ "La Sorbonne. Salle de lecture de la bibliothèque" ]
+      "fr" : [ "La Sorbonne. Salle de lecture de la bibliothèque" ]
     },
     "items" : [ {
       "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd",
@@ -73,7 +73,7 @@
     "height" : 516,
     "width" : 800,
     "label" : {
-      "en" : [ "La Sorbonne. Salle d'archéologie (Art antique)" ]
+      "fr" : [ "La Sorbonne. Salle d'archéologie (Art antique)" ]
     },
     "items" : [ {
       "id" : "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf/annotation-page/1245c8c9-0834-47f4-a949-413a20a8536a",
