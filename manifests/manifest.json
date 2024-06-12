@@ -1,96 +1,170 @@
 {
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest.json",
-  "type" : "Manifest",
-  "label" : {
-    "fr" : [ "Cartes postales de la Sorbonne" ]
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Picture of Göttingen taken during the 2019 IIIF Conference"
+    ]
   },
-  "items" : [ {
-    "id" : "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
-    "type" : "Canvas",
-    "height" : 510,
-    "width" : 800,
-    "label" : {
-      "fr" : [ "La Sorbonne. Faculté des lettres : Bibliothèque Albert-Dumont" ]
+  "items": [
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
+      "type": "Canvas",
+      "height": 3024,
+      "width": 4032,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-1/anno-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3024,
+                "width": 4032,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2/anno-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "language": "de",
+                "value": "Göttinger Marktplatz mit Gänseliesel Brunnen"
+              }
+            }
+          ]
+        }
+      ]
     },
-    "items" : [ {
-      "id" : "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc/annotation-page/25d29b33-78a7-49bb-9f47-5a38e69c247d",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc/annotation-page/25d29b33-78a7-49bb-9f47-5a38e69c247d/annotation/d2c455eb-c5a6-4dc1-840a-2ac3eb7fe974",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
-        "body" : {
-          "id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kxxz%2Fark_15733_qgz%2FBIS_00_00032_P073.jpg/full/800,510/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 510,
-          "width" : 800
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1",
+      "type": "Canvas",
+      "height": 3024,
+      "width": 4032,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-1/anno-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3024,
+                "width": 4032,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              }
+            }
+          ]
         }
-      } ]
-    } ]
-  }, {
-    "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
-    "type" : "Canvas",
-    "height" : 529,
-    "width" : 800,
-    "label" : {
-      "fr" : [ "La Sorbonne. Salle de lecture de la bibliothèque" ]
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-2/anno-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1"
+            }
+          ]
+        }
+      ]
     },
-    "items" : [ {
-      "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/a300785b-c1e9-4556-be4c-6ff21503e3a5",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
-        "body" : {
-          "id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_m01p%2FBIS_00_00480_P008bis.jpg/full/800,529/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 529,
-          "width" : 800
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1",
+      "type": "Canvas",
+      "height": 3024,
+      "width": 4032,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-1/anno-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3024,
+                "width": 4032,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              }
+            }
+          ]
         }
-      }, {
-        "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d",
-        "type" : "Annotation",
-        "motivation" : "commenting",
-        "target" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
-        "body" : {
-          "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d/html/en/1e584dba-f4f2-49f8-a7bf-ca01ab84ee07",
-          "type" : "TextualBody",
-          "format" : "text/html",
-          "language" : "en",
-          "value" : "<p>un lecteur</p>"
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-2/anno-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1#xywh=138,550,1477,1710",
+              "body": [
+                {
+                  "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-fountain/full/300,/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg"
+                },
+                "__$UNSET$__"
+              ]
+            }
+          ]
         }
-      } ]
-    } ]
-  }, {
-    "id" : "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
-    "type" : "Canvas",
-    "height" : 516,
-    "width" : 800,
-    "label" : {
-      "fr" : [ "La Sorbonne. Salle d'archéologie (Art antique)" ]
-    },
-    "items" : [ {
-      "id" : "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf/annotation-page/1245c8c9-0834-47f4-a949-413a20a8536a",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "/config/manifest-templates/blank.json/annotation/e211f1b9-1e0f-4300-be29-20d23079ceef",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
-        "body" : {
-          "id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_3p8%2Fark_15733_q6r%2FBIS_00_00032_P068.jpg/full/800,516/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 516,
-          "width" : 800
-        }
-      } ]
-    } ]
-  } ]
+      ]
+    }
+  ]
 }
