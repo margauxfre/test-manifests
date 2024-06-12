@@ -17,5 +17,11 @@
       "en" : [ "Picture of Göttingen taken during the 2019 IIIF Conference" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
