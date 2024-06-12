@@ -29,8 +29,8 @@
           "width" : 800
         }
       } ]
-    } ]
-  }, {
+    } ],
+  "annotations" : []}, {
     "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
     "type" : "Canvas",
     "height" : 529,
