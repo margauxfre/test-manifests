@@ -1,0 +1,131 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest(1).json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Picture of Göttingen taken during the 2019 IIIF Conference" ]
+  },
+  "items" : [ {
+    "id" : "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
+    "type" : "Canvas",
+    "height" : 3024,
+    "width" : 4032,
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-1/anno-1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
+        "body" : {
+          "id" : "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3024,
+          "width" : 4032,
+          "service" : [ {
+            "id" : "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+            "profile" : "level1",
+            "type" : "ImageService3"
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2/anno-1",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "target" : "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
+        "body" : {
+          "type" : "TextualBody",
+          "format" : "text/plain",
+          "language" : "de",
+          "value" : "Göttinger Marktplatz mit Gänseliesel Brunnen"
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1",
+    "type" : "Canvas",
+    "height" : 3024,
+    "width" : 4032,
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-1/anno-1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1",
+        "body" : {
+          "id" : "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3024,
+          "width" : 4032,
+          "service" : [ {
+            "id" : "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+            "profile" : "level1",
+            "type" : "ImageService3"
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1/annopage-2/anno-1",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "target" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1"
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1",
+    "type" : "Canvas",
+    "height" : 3024,
+    "width" : 4032,
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-1/anno-1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1",
+        "body" : {
+          "id" : "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3024,
+          "width" : 4032,
+          "service" : [ {
+            "id" : "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+            "profile" : "level1",
+            "type" : "ImageService3"
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1/annopage-2/anno-1",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "target" : "https://iiif.io/api/cookbook/recipe/0377-image-in-annotation/canvas-1#xywh=138,550,1477,1710",
+        "body" : [ {
+          "id" : "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-fountain/full/300,/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg"
+        }, "__$UNSET$__" ]
+      } ]
+    } ]
+  } ]
+}
