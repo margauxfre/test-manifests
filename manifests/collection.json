@@ -29,5 +29,11 @@
       "en" : [ "Test ranges et  annotations" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest3.json",
+    "label" : {
+      "fr" : [ "Cartes postales de la Sorbonne" ]
+    },
+    "type" : "Manifest"
   } ]
 }
