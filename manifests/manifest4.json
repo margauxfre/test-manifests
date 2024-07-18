@@ -146,7 +146,7 @@
                     },
                     "items": [
                         {
-                            "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
+                            "id": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
                             "type": "Canvas",
                             "label": "bibliothèque 1"
                         }
@@ -166,7 +166,7 @@
                     },
                     "items": [
                         {
-                            "id": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
+                            "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
                             "type": "Canvas",
                             "label": "bibliothèque 2"
                         }
