@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "/config/manifest-templates/blank.json",
+    "id": "https://margauxfre.github.io/test-manifests/manifests/manifest3.json",
     "type": "Manifest",
     "label": {
         "en": [
