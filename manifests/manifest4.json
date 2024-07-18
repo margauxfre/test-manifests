@@ -121,69 +121,8 @@
     ],
     "structures": [
         {
-            "id": "https://example.org/iiif/book1/range/r0",
-            "type": "Range",
-            "label": {
-                "en": [
-                    "le range général"
-                ]
-            },
-            "behavior": [
-                "sequence"
-            ],
-            "items": [
-                {
-                    "id": "https://example.org/iiif/book1/range/r1",
-                    "type": "Range",
-                    "label": {
-                        "en": [
-                            "un premier range"
-                        ]
-                    },
-                    "behavior": [
-                        "sequence"
-                    ],
-                    "supplementary": {
-                        "id": "https://example.org/iiif/book1/annocoll/introTexts",
-                        "type": "AnnotationCollection"
-                    },
-                    "items": [
-                        {
-                            "id": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
-                            "type": "Canvas",
-                            "label": "bibliothèque 1"
-                        }
-                    ]
-                },
-                {
-                    "id": "https://example.org/iiif/book1/range/r2",
-                    "type": "Range",
-                    "label": {
-                        "en": [
-                            "un deuxième range"
-                        ]
-                    },
-                    "behavior": [
-                        "sequence"
-                    ],
-                    "supplementary": {
-                        "id": "https://example.org/iiif/book1/annocoll/introTexts",
-                        "type": "AnnotationCollection"
-                    },
-                    "items": [
-                        {
-                            "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
-                            "type": "Canvas",
-                            "label": "bibliothèque 2"
-                        },
-                        {
-                            "id": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
-                            "type": "Canvas",
-                            "label": "bibliothèque 3"
-                        }
-                    ]
-                }
-            ]
+            "id": "https://margauxfre.github.io/test-manifests/annotations/range.json",
+            "type": "Range"
         }
     ]
 }
