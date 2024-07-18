@@ -1,89 +1,111 @@
 {
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest3.json",
-  "type" : "Manifest",
-  "label" : {
-    "en" : [ "Test ranges et  annotations" ]
-  },
-  "items" : [ {
-    "id" : "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
-    "type" : "Canvas",
-    "height" : 510,
-    "width" : 800,
-    "label" : {
-      "en" : [ "Bibliothèque Albert Dumont" ]
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "/config/manifest-templates/blank.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Test ranges et  annotations"
+        ]
     },
-    "items" : [ {
-      "id" : "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39/annotation-page/10a31286-1259-43d6-9b96-fc50ead20073",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39/annotation-page/10a31286-1259-43d6-9b96-fc50ead20073/annotation/7a41752d-d145-418c-a156-8ca4369b09dc",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
-        "body" : {
-          "id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kxxz%2Fark_15733_qgz%2FBIS_00_00032_P073.jpg/full/800,510/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 510,
-          "width" : 800
+    "items": [
+        {
+            "id": "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
+            "type": "Canvas",
+            "height": 510,
+            "width": 800,
+            "label": {
+                "en": [
+                    "Bibliothèque Albert Dumont"
+                ]
+            },
+            "items": [
+                {
+                    "id": "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39/annotation-page/10a31286-1259-43d6-9b96-fc50ead20073",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39/annotation-page/10a31286-1259-43d6-9b96-fc50ead20073/annotation/7a41752d-d145-418c-a156-8ca4369b09dc",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
+                            "body": {
+                                "id": "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kxxz%2Fark_15733_qgz%2FBIS_00_00032_P073.jpg/full/800,510/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 510,
+                                "width": 800
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+                    "type" : "Canvas",
+                    "height" : 529,
+                    "width" : 800,
+                    "label" : {
+                      "none" : [ "La Sorbonne. Salle de lecture de la bibliothèque" ]
+                    },
+                    "items" : [ {
+                      "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd",
+                      "type" : "AnnotationPage",
+                      "items" : [ {
+                        "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/a300785b-c1e9-4556-be4c-6ff21503e3a5",
+                        "type" : "Annotation",
+                        "motivation" : "painting",
+                        "target" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+                        "body" : {
+                          "id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_m01p%2FBIS_00_00480_P008bis.jpg/full/800,529/0/default.jpg",
+                          "type" : "Image",
+                          "format" : "image/jpeg",
+                          "height" : 529,
+                          "width" : 800
+                        }
+                      }]
+                    } ]
+                  }
+            ]
         }
-      } ]
-    } ]
-  } ],
-  , {
-    "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
-    "type" : "Canvas",
-    "height" : 529,
-    "width" : 800,
-    "label" : {
-      "none" : [ "La Sorbonne. Salle de lecture de la bibliothèque" ]
-    },
-    "items" : [ {
-      "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/a300785b-c1e9-4556-be4c-6ff21503e3a5",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
-        "body" : {
-          "id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_m01p%2FBIS_00_00480_P008bis.jpg/full/800,529/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 529,
-          "width" : 800
-        }
-      },
-  "structures" : [ {
-    "id" : "https://example.org/iiif/book1/range/r0",
-    "type" : "Range",
-    "label" : {
-      "en" : [ "un premier range" ]
-    },
-    "items" : [ {
-      "id" : "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
-      "type" : "Canvas",
-      "label" : "bibliothèque 1",
-      "supplementary" : {
-        "id" : "https://example.org/iiif/book1/annocoll/introTexts",
-        "type" : "AnnotationCollection"
-      }
-    }, {
-      "id" : "https://example.org/iiif/book1/range/r1",
-      "type" : "Range",
-      "label" : {
-        "en" : [ "un deuxième range" ]
-      },
-      "items" : [ {
-        "id" : "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
-        "type" : "Canvas",
-        "label" : "bibliothèque 2",
-        "supplementary" : {
-          "id" : "https://example.org/iiif/book1/annocoll/introTexts",
-          "type" : "AnnotationCollection"
-        }
-      } ]
-    } ]
-  } ]
-}
+    ],
+    "structures": [
+        {
+            "id": "https://example.org/iiif/book1/range/r0",
+            "type": "Range",
+            "label": {
+                "en": [
+                    "un premier range"
+                ]
+            },
+            "items": [
+                {
+                    "id": "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
+                    "type": "Canvas",
+                    "label": "bibliothèque 1",
+                    "supplementary": {
+                        "id": "https://example.org/iiif/book1/annocoll/introTexts",
+                        "type": "AnnotationCollection"
+                    }
+                },
+                {
+                    "id": "https://example.org/iiif/book1/range/r1",
+                    "type": "Range",
+                    "label": {
+                        "en": [
+                            "un deuxième range"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "/config/manifest-templates/blank.json/canvas/6550b465-dc49-4689-bb60-880e7b1f5d39",
+                            "type": "Canvas",
+                            "label": "bibliothèque 2",
+                            "supplementary": {
+                                "id": "https://example.org/iiif/book1/annocoll/introTexts",
+                                "type": "AnnotationCollection"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }]
+    }
