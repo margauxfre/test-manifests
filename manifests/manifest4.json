@@ -7,6 +7,9 @@
             "Cartes postales de la Sorbonne"
         ]
     },
+    "behavior": [
+        "unordered"
+    ],
     "items": [
         {
             "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
@@ -175,6 +178,11 @@
                             "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
                             "type": "Canvas",
                             "label": "bibliothèque 2"
+                        },
+                        {
+                            "id": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+                            "type": "Canvas",
+                            "label": "bibliothèque 3"
                         }
                     ]
                 }
