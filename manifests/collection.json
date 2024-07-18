@@ -23,5 +23,11 @@
       "en" : [ "Blank Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest3.json",
+    "label" : {
+      "en" : [ "Test ranges et  annotations" ]
+    },
+    "type" : "Manifest"
   } ]
 }
