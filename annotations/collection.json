@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://margauxfre.github.io/test-manifests/annotations/range.json" ],
+  "@id" : "https://margauxfre.github.io/test-manifests/annotations/collection.json",
+  "label" : "All annotations loaded in margauxfre/test-manifests project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
