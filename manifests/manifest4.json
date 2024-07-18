@@ -7,6 +7,9 @@
             "Cartes postales de la Sorbonne"
         ]
     },
+    "behavior": [
+        "unordered"
+    ],
     "items": [
         {
             "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
@@ -125,30 +128,52 @@
             "type": "Range",
             "label": {
                 "en": [
-                    "un premier range"
+                    "le range général"
                 ]
             },
+            "behavior": [
+                "sequence"
+            ],
             "items": [
                 {
-                    "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
-                    "type": "Canvas",
-                    "label": "bibliothèque 1"
-                }
-            ]
-        },
-        {
-            "id": "https://example.org/iiif/book1/range/r1",
-            "type": "Range",
-            "label": {
-                "en": [
-                    "un deuxième range"
-                ]
-            },
-            "items": [
+                    "id": "https://example.org/iiif/book1/range/r1",
+                    "type": "Range",
+                    "label": {
+                        "en": [
+                            "un premier range"
+                        ]
+                    },
+                    "supplementary": {
+                        "id": "https://example.org/iiif/book1/annocoll/introTexts",
+                        "type": "AnnotationCollection"
+                    },
+                    "items": [
+                        {
+                            "id": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
+                            "type": "Canvas",
+                            "label": "bibliothèque 1"
+                        }
+                    ]
+                },
                 {
-                    "id": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
-                    "type": "Canvas",
-                    "label": "bibliothèque 2"
+                    "id": "https://example.org/iiif/book1/range/r2",
+                    "type": "Range",
+                    "label": {
+                        "en": [
+                            "un deuxième range"
+                        ]
+                    },
+                    "supplementary": {
+                        "id": "https://example.org/iiif/book1/annocoll/introTexts",
+                        "type": "AnnotationCollection"
+                    },
+                    "items": [
+                        {
+                            "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
+                            "type": "Canvas",
+                            "label": "bibliothèque 2"
+                        }
+                    ]
                 }
             ]
         }
