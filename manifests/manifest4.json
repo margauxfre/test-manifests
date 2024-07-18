@@ -7,9 +7,6 @@
             "Cartes postales de la Sorbonne"
         ]
     },
-    "behavior": [
-        "unordered"
-    ],
     "items": [
         {
             "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
