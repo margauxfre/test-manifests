@@ -35,5 +35,11 @@
       "fr" : [ "Cartes postales de la Sorbonne" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest4.json",
+    "label" : {
+      "fr" : [ "Cartes postales de la Sorbonne" ]
+    },
+    "type" : "Manifest"
   } ]
 }
