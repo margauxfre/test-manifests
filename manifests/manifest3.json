@@ -31,6 +31,30 @@
       } ]
     } ]
   } ],
+  , {
+    "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+    "type" : "Canvas",
+    "height" : 529,
+    "width" : 800,
+    "label" : {
+      "none" : [ "La Sorbonne. Salle de lecture de la bibliothèque" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/a300785b-c1e9-4556-be4c-6ff21503e3a5",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+        "body" : {
+          "id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_m01p%2FBIS_00_00480_P008bis.jpg/full/800,529/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 529,
+          "width" : 800
+        }
+      },
   "structures" : [ {
     "id" : "https://example.org/iiif/book1/range/r0",
     "type" : "Range",
