@@ -68,19 +68,6 @@
                                 "height": 529,
                                 "width": 800
                             }
-                        },
-                        {
-                            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "target": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
-                            "body": {
-                                "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d/html/en/1e584dba-f4f2-49f8-a7bf-ca01ab84ee07",
-                                "type": "TextualBody",
-                                "format": "text/html",
-                                "language": "en",
-                                "value": "<p>un lecteur</p>"
-                            }
                         }
                     ]
                 }
