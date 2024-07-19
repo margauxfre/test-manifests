@@ -53,5 +53,11 @@
       "en" : [ "Example Manifest with Ranges" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/test3.json",
+    "label" : {
+      "en" : [ "Example Manifest with Ranges" ]
+    },
+    "type" : "Manifest"
   } ]
 }
