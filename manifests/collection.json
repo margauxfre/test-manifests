@@ -41,5 +41,11 @@
       "fr" : [ "Cartes postales de la Sorbonne" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/test.json",
+    "label" : {
+      "en" : [ "Exemple de Manifeste IIIF avec Range" ]
+    },
+    "type" : "Manifest"
   } ]
 }
