@@ -9,7 +9,7 @@
     },
     "items": [
         {
-            "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
+            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
             "type": "Canvas",
             "height": 510,
             "width": 800,
@@ -20,14 +20,14 @@
             },
             "items": [
                 {
-                    "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc/annotation-page/25d29b33-78a7-49bb-9f47-5a38e69c247d",
+                    "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc/annotation-page/25d29b33-78a7-49bb-9f47-5a38e69c247d",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc/annotation-page/25d29b33-78a7-49bb-9f47-5a38e69c247d/annotation/d2c455eb-c5a6-4dc1-840a-2ac3eb7fe974",
+                            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc/annotation-page/25d29b33-78a7-49bb-9f47-5a38e69c247d/annotation/d2c455eb-c5a6-4dc1-840a-2ac3eb7fe974",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "/config/manifest-templates/blank.json/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
+                            "target": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/c049ff0d-73cd-4b81-a7de-14874ab707fc",
                             "body": {
                                 "id": "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kxxz%2Fark_15733_qgz%2FBIS_00_00032_P073.jpg/full/800,510/0/default.jpg",
                                 "type": "Image",
@@ -42,7 +42,7 @@
             "annotations": []
         },
         {
-            "id": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
             "type": "Canvas",
             "height": 529,
             "width": 800,
@@ -53,14 +53,14 @@
             },
             "items": [
                 {
-                    "id": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd",
+                    "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/a300785b-c1e9-4556-be4c-6ff21503e3a5",
+                            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/a300785b-c1e9-4556-be4c-6ff21503e3a5",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+                            "target": "https://margauxfre.github.io/test-manifests/manifests/manifest4canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
                             "body": {
                                 "id": "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_m01p%2FBIS_00_00480_P008bis.jpg/full/800,529/0/default.jpg",
                                 "type": "Image",
@@ -70,12 +70,12 @@
                             }
                         },
                         {
-                            "id": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d",
+                            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d",
                             "type": "Annotation",
                             "motivation": "commenting",
-                            "target": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
+                            "target": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984",
                             "body": {
-                                "id": "/config/manifest-templates/blank.json/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d/html/en/1e584dba-f4f2-49f8-a7bf-ca01ab84ee07",
+                                "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/03cc0a04-e1c7-4ba0-89c7-3af275ab1984/annotation-page/f2886bed-cf15-433a-9831-a48e9b2073dd/annotation/0e120835-6707-40f0-9d11-3888c199ea4d/html/en/1e584dba-f4f2-49f8-a7bf-ca01ab84ee07",
                                 "type": "TextualBody",
                                 "format": "text/html",
                                 "language": "en",
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "id": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
+            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
             "type": "Canvas",
             "height": 516,
             "width": 800,
@@ -98,14 +98,14 @@
             },
             "items": [
                 {
-                    "id": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf/annotation-page/1245c8c9-0834-47f4-a949-413a20a8536a",
+                    "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf/annotation-page/1245c8c9-0834-47f4-a949-413a20a8536a",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "/config/manifest-templates/blank.json/annotation/e211f1b9-1e0f-4300-be29-20d23079ceef",
+                            "id": "https://margauxfre.github.io/test-manifests/manifests/manifest4/annotation/e211f1b9-1e0f-4300-be29-20d23079ceef",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
+                            "target": "https://margauxfre.github.io/test-manifests/manifests/manifest4/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
                             "body": {
                                 "id": "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_3p8%2Fark_15733_q6r%2FBIS_00_00032_P068.jpg/full/800,516/0/default.jpg",
                                 "type": "Image",
