@@ -47,5 +47,11 @@
       "en" : [ "Exemple de Manifeste IIIF avec Range" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/test2.json",
+    "label" : {
+      "en" : [ "Example Manifest with Ranges" ]
+    },
+    "type" : "Manifest"
   } ]
 }
