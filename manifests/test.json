@@ -77,7 +77,7 @@
     "label" : {
       "en" : [ "Chapitre 1" ]
     },
-    "behavior" : [ "individuals" ],
+    "behavior" : [ "sequence" ],
     "items" : [ {
       "id" : "http://example.org/iiif/book1/range/r1.1",
       "type" : "Range",
