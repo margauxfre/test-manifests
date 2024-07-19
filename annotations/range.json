@@ -5,7 +5,6 @@
   "label" : {
     "en" : [ "le range général" ]
   },
-  "behavior" : [ "sequence" ],
   "items" : [ {
     "id" : "/config/manifest-templates/blank.json/canvas/d0ac3ee9-718b-464a-ac56-d09f2b4491bf",
     "type" : "Canvas",
