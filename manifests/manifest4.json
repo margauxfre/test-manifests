@@ -122,7 +122,10 @@
     "structures": [
         {
             "id": "https://margauxfre.github.io/test-manifests/annotations/range.json",
-            "type": "Range"
+            "type": "Range",
+            "items":[
+                {"id": "https://margauxfre.github.io/test-manifests/annotations/range.json"}
+            ]
         }
     ]
 }
