@@ -59,5 +59,9 @@
       "en" : [ "Example Manifest with Ranges" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://margauxfre.github.io/test-manifests/manifests/test4.json",
+    "label" : "Example Manifest with Ranges"
   } ]
 }
