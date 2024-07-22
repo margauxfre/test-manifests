@@ -1,0 +1,104 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://margauxfre.github.io/test-manifests/manifests/test4.json",
+  "@type" : "sc:Manifest",
+  "label" : "Example Manifest with Ranges",
+  "sequences" : [ {
+    "@id" : "https://margauxfre.github.io/test-manifests/manifests/test3.json/sequence/normal",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://example.org/iiif/canvas/1",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 1",
+      "width" : 6000,
+      "height" : 4000,
+      "images" : [ {
+        "@id" : "https://example.org/iiif/annotation/1/image",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://example.org/iiif/image/1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 6000,
+          "height" : 4000
+        },
+        "on" : "https://example.org/iiif/canvas/1"
+      } ]
+    }, {
+      "@id" : "https://example.org/iiif/canvas/2",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 2",
+      "width" : 5000,
+      "height" : 3000,
+      "images" : [ {
+        "@id" : "https://example.org/iiif/annotation/2/image",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://example.org/iiif/image/2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 5000,
+          "height" : 3000
+        },
+        "on" : "https://example.org/iiif/canvas/2"
+      } ]
+    }, {
+      "@id" : "https://example.org/iiif/canvas/3",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 3",
+      "width" : 4000,
+      "height" : 4000,
+      "images" : [ {
+        "@id" : "https://example.org/iiif/annotation/3/image",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://example.org/iiif/image/3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "height" : 4000
+        },
+        "on" : "https://example.org/iiif/canvas/3"
+      } ]
+    }, {
+      "@id" : "https://example.org/iiif/canvas/4",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 4",
+      "width" : 7000,
+      "height" : 5000,
+      "images" : [ {
+        "@id" : "https://example.org/iiif/annotation/4/image",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://example.org/iiif/image/4/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 7000,
+          "height" : 5000
+        },
+        "on" : "https://example.org/iiif/canvas/4"
+      } ]
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "https://example.org/iiif/range/1",
+    "@type" : "sc:Range",
+    "label" : "Section 1",
+    "ranges" : [ {
+      "@id" : "https://example.org/iiif/range/1-1",
+      "@type" : "sc:Range",
+      "label" : "Subsection 1.1",
+      "canvases" : [ "https://example.org/iiif/canvas/2", "https://example.org/iiif/canvas/3" ]
+    }, {
+      "@id" : "https://example.org/iiif/range/1-2",
+      "@type" : "sc:Range",
+      "label" : "Subsection 1.2",
+      "canvases" : [ "https://example.org/iiif/canvas/1", "https://example.org/iiif/canvas/4" ]
+    } ]
+  } ],
+  "startCanvas" : "https://example.org/iiif/canvas/1"
+}
