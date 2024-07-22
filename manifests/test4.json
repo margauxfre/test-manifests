@@ -99,6 +99,5 @@
       "label" : "Subsection 1.2",
       "canvases" : [ "https://example.org/iiif/canvas/1", "https://example.org/iiif/canvas/4" ]
     } ]
-  } ],
-  "startCanvas" : "https://example.org/iiif/canvas/1"
+  } ]
 }
