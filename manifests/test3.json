@@ -97,6 +97,7 @@
   "structures" : [ {
     "id" : "https://example.org/iiif/range/1",
     "type" : "Range",
+    "behavior":"sequence",
     "label" : {
       "en" : [ "Section 1" ]
     },
