@@ -232,16 +232,68 @@
             "width": 2320
         },
         {
+            "height": 5264,
             "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/6",
-            "type": "Canvas",
+            "items": [
+                {
+                    "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/6/annotation-page",
+                    "items": [
+                        {
+                            "body": {
+                                "format": "image/jpeg",
+                                "height": 5264,
+                                "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53072767b/f2/full/full/0/native.jpg",
+                                "type": "Image",
+                                "width": 4072
+                            },
+                            "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/annotation/6-image",
+                            "motivation": "painting",
+                            "target": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/6",
+                            "type": "Annotation"
+                        }
+                    ],
+                    "type": "AnnotationPage"
+                }
+            ],
             "label": {
                 "none": "NP"
             },
-            "width": 4072,
-            "height": 5264,
+            "partOf": [
+                {
+                    "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53072767b/manifest.json",
+                    "label": {
+                        "none": [
+                            "Le cheval / par Caran d'Ache ; texte de M. de Buffon"
+                        ]
+                    },
+                    "type": "Manifest"
+                }
+            ],
             "thumbnail": [
                 {
+                    "format": "image/jpeg",
+                    "height": 300,
                     "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53072767b/f2/full/320,412/0/native.jpg",
+                    "type": "Image",
+                    "width": 200
+                }
+            ],
+            "type": "Canvas",
+            "width": 4072
+        },
+        {
+            "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/7",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "1"
+                ]
+            },
+            "width": 2688,
+            "height": 3944,
+            "thumbnail": [
+                {
+                    "id": "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_49nc%2Fark_15733_mfp5%2FBIS_00_00971_0001.jpg/full/545,800/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
                     "width": 200,
@@ -250,32 +302,32 @@
             ],
             "items": [
                 {
-                    "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/6/annotation-page",
+                    "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/7/annotation-page",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/annotation/6-image",
+                            "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/annotation/7-image",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53072767b/f2/full/full/0/native.jpg",
+                                "id": "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_49nc%2Fark_15733_mfp5%2FBIS_00_00971_0001.jpg/full/545,800/0/default.jpg",
                                 "type": "Image",
                                 "format": "image/jpeg",
-                                "width": 4072,
-                                "height": 5264
+                                "width": 2688,
+                                "height": 3944
                             },
-                            "target": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/6"
+                            "target": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/7"
                         }
                     ]
                 }
             ],
             "partOf": [
                 {
-                    "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53072767b/manifest.json",
+                    "id": "https://nubis.bis-sorbonne.fr/iiif/3/mfp5/manifest",
                     "type": "Manifest",
                     "label": {
                         "none": [
-                            "Le cheval / par Caran d'Ache ; texte de M. de Buffon"
+                            "Actes concernant la biblioth\u00e8que de l'Universit\u00e9 du 23 novembre 1763 au 3 ao\u00fbt 1792 recueillis par M. P. X. Corneille, conservateur adjoint \u00e0 la biblioth\u00e8que de l'Universit\u00e9"
                         ]
                     }
                 }
@@ -327,6 +379,10 @@
                 },
                 {
                     "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/6",
+                    "type": "Canvas"
+                },
+                {
+                    "id": "http://localhost:5000/prv9e82b600-11c5-45e9-873d-55abe30be8a3/manifest-edition/canvas/7",
                     "type": "Canvas"
                 }
             ],
