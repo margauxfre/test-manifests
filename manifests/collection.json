@@ -75,5 +75,11 @@
       "fr" : [ "Mon article" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifeste_edition2.json",
+    "label" : {
+      "fr" : [ "Mon article" ]
+    },
+    "type" : "Manifest"
   } ]
 }
