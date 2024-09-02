@@ -63,5 +63,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://margauxfre.github.io/test-manifests/manifests/test4.json",
     "label" : "Example Manifest with Ranges"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifeste_edition.json",
+    "label" : {
+      "fr" : [ "Mon article" ]
+    },
+    "type" : "Manifest"
   } ]
 }
