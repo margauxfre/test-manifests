@@ -1,223 +1,436 @@
 {
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest8.json",
-  "type" : "Manifest",
-  "label" : {
-    "fr" : [ "« Bal des tantes » de l’entre-deux guerres au Magic-City" ],
-    "en" : [ "'Ball of the Aunts': From the Interwar Period to Magic-City" ]
-  },
-  "metadata" : [ {
-    "label" : {
-      "none" : [ "Date de création du manifesre" ]
+   "type": "Manifest",
+    "label": {
+        "fr": [
+            "« Bal des tantes » de l’entre-deux guerres au Magic-City"
+        ],
+        "en":["'Ball of the Aunts': From the Interwar Period to Magic-City"]
     },
-    "value" : {
-      "none" : [ "2024-09-12T10:13:46.523Z" ]
-    }
-  }, {
-    "label" : {
-      "fr" : [ "Titre de l'article" ],
-      "en" : [ "Title of the article" ]
-    },
-    "value" : {
-      "fr" : [ "Bal des tantes » de l’entre-deux guerres au Magic-City" ],
-      "en" : [ "'Ball of the Aunts': From the Interwar Period to Magic-City" ]
-    }
-  }, {
-    "label" : {
-      "fr" : [ "Auteur de l'article" ]
-    },
-    "value" : {
-      "fr" : [ "Manuel Charpy" ]
-    }
-  } ],
-  "summary" : {
-    "fr" : [ "Ici un résumé du manifeste/de l'article" ]
-  },
-  "requiredStatement" : {
-    "label" : {
-      "fr" : [ "Crédits" ]
-    },
-    "value" : {
-      "fr" : [ "Licence INHA" ]
-    }
-  },
-  "items" : [ {
-    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
-    "type" : "Canvas",
-    "height" : 1200,
-    "width" : 1800,
-    "label" : {
-      "fr" : [ "Trois personnes en costumes traditionnels" ]
-    },
-    "thumbnail" : [ {
-      "id" : "https://corpus-invisu.inha.fr/iiif/3/10015/full/536,800/0/default.jpg",
-      "type" : "Image"
-    } ],
-    "metadata" : [ {
-      "label" : {
-        "none" : [ "Date" ]
-      },
-      "value" : {
-        "none" : [ "Années 1930" ]
-      }
-    }, {
-      "label" : {
-        "fr" : [ "Titre" ]
-      },
-      "value" : {
-        "fr" : [ "Trois personnes en costumes traditionnels" ]
-      }
-    }, {
-      "label" : {
-        "fr" : [ "Créateur" ]
-      },
-      "value" : {
-        "fr" : [ "Anonyme" ]
-      }
-    }, {
-      "label" : {
-        "fr" : [ "Type" ]
-      },
-      "value" : {
-        "fr" : [ "Photo d'archives" ]
-      }
-    }, {
-      "label" : {
-        "fr" : [ "Source" ]
-      },
-      "value" : {
-        "fr" : [ "Paris (France), Bibliothèque nationale de France, département des Arts du spectacle, fonds Fréjaville" ]
-      }
-    } ],
-    "items" : [ {
-      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1/annotation-page",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/1-image",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
-        "body" : {
-          "id" : "https://corpus-invisu.inha.fr/iiif/3/10015/full/536,800/0/default.jpg",
-          "type" : "Image"
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Date de cr\u00e9ation du manifesre"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2024-09-12T10:13:46.523Z"
+                ]
+            }
+        },{
+            "label": {
+                "fr": [
+                    "Titre de l'article"
+                ],
+                "en":["Title of the article"]
+            },
+            "value": {
+                "fr": [
+                    "Bal des tantes » de l’entre-deux guerres au Magic-City"
+                ],
+                "en":["'Ball of the Aunts': From the Interwar Period to Magic-City"]
+            }
+        },{
+            "label": {
+                "fr": [
+                    "Auteur de l'article"
+                ]
+            },
+            "value": {
+                "fr": [
+                    "Manuel Charpy"
+                ]
+            }
         }
-      } ]
-    } ],
-    "summary" : {
-      "fr" : [ "La légende de l'image" ]
-    },
-    "requiredStatement" : {
-      "label" : {
-        "fr" : [ "Crédits" ]
-      },
-      "value" : {
-        "fr" : [ "Voir les modalités de la BnF" ]
-      }
-    },
-    "partOf" : [ {
-      "id" : "https://corpus-invisu.inha.fr/iiif/3/10014/manifest",
-      "type" : "Manifest",
-      "label" : {
-        "none" : [ "« Bal des tantes » de l’entre-deux guerres au Magic-City" ]
-      }
-    } ]
-  }, {
-    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
-    "type" : "Canvas",
-    "height" : 1200,
-    "width" : 1800,
-    "label" : {
-      "none" : [ "Couple" ]
-    },
-    "thumbnail" : [ {
-      "id" : "https://corpus-invisu.inha.fr/iiif/3/10016/full/509,800/0/default.jpg",
-      "type" : "Image"
-    } ],
-    "items" : [ {
-      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2/annotation-page",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/2-image",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
-        "body" : {
-          "id" : "https://corpus-invisu.inha.fr/iiif/3/10016/full/509,800/0/default.jpg",
-          "type" : "Image"
+        
+
+    ], 
+    "summary":{"fr":["Ici un résumé du manifeste/de l'article"]},
+    "requiredStatement": {
+      "label": { "fr": [ "Crédits" ] },
+      "value": { "fr": [ "Licence INHA" ] } 
+  },
+    "items": [
+        {
+            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
+            "type": "Canvas",
+            "height": 1200,
+            "width": 1800,
+            "label": {
+                "fr": [
+                    "Trois personnes en costumes traditionnels"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://corpus-invisu.inha.fr/iiif/3/10015/full/536,800/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "metadata":[
+                {
+                    "label": {
+                        "none": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "none": [
+                            "Années 1930"
+                        ]
+                    }
+                },{
+                    "label": {
+                        "fr": [
+                            "Titre"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Trois personnes en costumes traditionnels"
+                        ]
+                    }
+                },{
+                    "label": {
+                        "fr": [
+                            "Créateur"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Anonyme"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "fr": [
+                            "Type"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Photo d'archives"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "fr": [
+                            "Source"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Paris (France), Bibliothèque nationale de France, département des Arts du spectacle, fonds Fréjaville"
+                        ]
+                    }
+                }
+        
+            ],
+            "items": [
+                {
+                    "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/1-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
+                            "body": {
+                                "id": "https://corpus-invisu.inha.fr/iiif/3/10015/full/536,800/0/default.jpg",
+                                "type": "Image"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "summary":{"fr":["La légende de l'image"]},
+            "requiredStatement": { 
+                   
+                  "label": { "fr": [ "Crédits" ] },
+                  "value": { "fr": [ "Voir les modalités de la BnF" ] } 
+              },
+            "partOf": [
+                {
+                    "id": "https://corpus-invisu.inha.fr/iiif/3/10014/manifest",
+                    "type": "Manifest",
+                    "label": {
+                        "none": [
+                            "\u00ab Bal des tantes \u00bb de l\u2019entre-deux guerres au Magic-City"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
+            "type": "Canvas",
+            "height": 1200,
+            "width": 1800,
+            "label": {
+                "none": [
+                    "Couple"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://corpus-invisu.inha.fr/iiif/3/10016/full/509,800/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "metadata":[
+                {
+                    "label": {
+                        "none": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "none": [
+                            "Années 1930"
+                        ]
+                    }
+                },{
+                    "label": {
+                        "fr": [
+                            "Titre"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Trois personnes en costumes traditionnels"
+                        ]
+                    }
+                },{
+                    "label": {
+                        "fr": [
+                            "Créateur"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Anonyme"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "fr": [
+                            "Type"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Photo d'archives"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "fr": [
+                            "Source"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Paris (France), Bibliothèque nationale de France, département des Arts du spectacle, fonds Fréjaville"
+                        ]
+                    }
+                }
+        
+            ],
+            "items": [
+                {
+                    "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/2-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
+                            "body": {
+                                "id": "https://corpus-invisu.inha.fr/iiif/3/10016/full/509,800/0/default.jpg",
+                                "type": "Image"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "summary":{"fr":["La légende de l'image"]},
+            "requiredStatement": { 
+                   
+                  "label": { "fr": [ "Crédits" ] },
+                  "value": { "fr": [ "Voir les modalités de la BnF" ] } 
+              },
+            "partOf": [
+                {
+                    "id": "https://corpus-invisu.inha.fr/iiif/3/10014/manifest",
+                    "type": "Manifest",
+                    "label": {
+                        "none": [
+                            "\u00ab Bal des tantes \u00bb de l\u2019entre-deux guerres au Magic-City"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
+            "type": "Canvas",
+            "height": 1200,
+            "width": 1800,
+            "label": {
+                "none": [
+                    "Personne en tenue de danseuse"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://corpus-invisu.inha.fr/iiif/3/10017/full/503,800/0/default.jpg",
+                    "type": "Image"
+                }
+            ],
+            "metadata":[
+                {
+                    "label": {
+                        "none": [
+                            "Date"
+                        ]
+                    },
+                    "value": {
+                        "none": [
+                            "Années 1930"
+                        ]
+                    }
+                },{
+                    "label": {
+                        "fr": [
+                            "Titre"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Trois personnes en costumes traditionnels"
+                        ]
+                    }
+                },{
+                    "label": {
+                        "fr": [
+                            "Créateur"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Anonyme"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "fr": [
+                            "Type"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Photo d'archives"
+                        ]
+                    }
+                },
+                {
+                    "label": {
+                        "fr": [
+                            "Source"
+                        ]
+                    },
+                    "value": {
+                        "fr": [
+                            "Paris (France), Bibliothèque nationale de France, département des Arts du spectacle, fonds Fréjaville"
+                        ]
+                    }
+                }
+        
+            ],
+            "items": [
+                {
+                    "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/3-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
+                            "body": {
+                                "id": "https://corpus-invisu.inha.fr/iiif/3/10017/full/503,800/0/default.jpg",
+                                "type": "Image"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "summary":{"fr":["La légende de l'image"]},
+            "requiredStatement": { 
+                   
+                  "label": { "fr": [ "Crédits" ] },
+                  "value": { "fr": [ "Voir les modalités de la BnF" ] } 
+              },
+            "partOf": [
+                {
+                    "id": "https://corpus-invisu.inha.fr/iiif/3/10014/manifest",
+                    "type": "Manifest",
+                    "label": {
+                        "none": [
+                            "\u00ab Bal des tantes \u00bb de l\u2019entre-deux guerres au Magic-City"
+                        ]
+                    }
+                }
+            ]
         }
-      } ]
-    } ],
-    "partOf" : [ {
-      "id" : "https://corpus-invisu.inha.fr/iiif/3/10014/manifest",
-      "type" : "Manifest",
-      "label" : {
-        "none" : [ "« Bal des tantes » de l’entre-deux guerres au Magic-City" ]
-      }
-    } ]
-  }, {
-    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
-    "type" : "Canvas",
-    "height" : 1200,
-    "width" : 1800,
-    "label" : {
-      "none" : [ "Personne en tenue de danseuse" ]
-    },
-    "thumbnail" : [ {
-      "id" : "https://corpus-invisu.inha.fr/iiif/3/10017/full/503,800/0/default.jpg",
-      "type" : "Image"
-    } ],
-    "items" : [ {
-      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3/annotation-page",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/3-image",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
-        "body" : {
-          "id" : "https://corpus-invisu.inha.fr/iiif/3/10017/full/503,800/0/default.jpg",
-          "type" : "Image"
+    ],
+    "structures": [
+        {
+            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1",
+            "type": "Range",
+            "items": [
+                { "id":"http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1-1",
+                "type":"Range",
+                "label":{"fr": ["Introduction"]},
+                "items": [
+                    {
+                            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
+                            "type": "Canvas"
+                    }
+                ],
+                "supplementary": {
+            "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/annocoll/introTexts",
+            "type": "AnnotationCollection"
+          }
+            },
+            { "id":"http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1-2",
+                "type":"Range",
+                "label":{"fr": ["Partie 1 de l'article"]},
+                "items": [
+                    {
+                        "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
+                        "type": "Canvas"
+                    },
+                    {
+                        "id": "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
+                        "type": "Canvas"
+                    }
+                ]
+            
+            }
+               
+                
+            ]
         }
-      } ]
-    } ],
-    "partOf" : [ {
-      "id" : "https://corpus-invisu.inha.fr/iiif/3/10014/manifest",
-      "type" : "Manifest",
-      "label" : {
-        "none" : [ "« Bal des tantes » de l’entre-deux guerres au Magic-City" ]
-      }
-    } ]
-  } ],
-  "structures" : [ {
-    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1",
-    "type" : "Range",
-    "items" : [ {
-      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1-1",
-      "type" : "Range",
-      "label" : {
-        "fr" : ["Introduction"]
-      },
-      "items" : [ {
-        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
-        "type" : "Canvas"
-      } ],
-      "supplementary" : {
-        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/annocoll/introTexts",
-        "type" : "AnnotationCollection"
-      }
-    }, {
-      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1-2",
-      "type" : "Range",
-      "label" : {
-        "fr" : ["Partie 1 de l'article"]
-      },
-      "items" : [ {
-        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
-        "type" : "Canvas"
-      }, {
-        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
-        "type" : "Canvas"
-      } ]
-    } ]
-  } ]
+    ]
 }
