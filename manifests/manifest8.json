@@ -195,7 +195,7 @@
       "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1-1",
       "type" : "Range",
       "label" : {
-        "fr" : "Introduction"
+        "fr" : ["Introduction"]
       },
       "items" : [ {
         "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
@@ -209,7 +209,7 @@
       "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1-2",
       "type" : "Range",
       "label" : {
-        "fr" : "Partie 1 de l'article"
+        "fr" : ["Partie 1 de l'article"]
       },
       "items" : [ {
         "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
