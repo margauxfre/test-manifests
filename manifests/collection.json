@@ -81,5 +81,12 @@
       "fr" : [ "Mon article" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifest8.json",
+    "label" : {
+      "fr" : [ "« Bal des tantes » de l’entre-deux guerres au Magic-City" ],
+      "en" : [ "'Ball of the Aunts': From the Interwar Period to Magic-City" ]
+    },
+    "type" : "Manifest"
   } ]
 }
