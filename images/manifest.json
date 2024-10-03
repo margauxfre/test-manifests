@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 2998,
+    "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/canvas/",
+    "label" : {
+      "none" : [ "DP-18087-001" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 94,
+              "height" : 125
+            }, {
+              "width" : 188,
+              "height" : 250
+            }, {
+              "width" : 375,
+              "height" : 500
+            }, {
+              "width" : 750,
+              "height" : 1000
+            }, {
+              "width" : 1499,
+              "height" : 2000
+            }, {
+              "width" : 2998,
+              "height" : 4000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2998,
+            "@id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2998,
+          "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4000
+        },
+        "target" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/canvas/"
+      } ]
+    } ],
+    "height" : 4000
+  }, {
     "width" : 2100,
     "id" : "https://margauxfre.github.io/test-manifests/images/1929-40-209-imls2012/canvas/",
     "label" : {
