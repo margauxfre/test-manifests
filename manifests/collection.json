@@ -88,5 +88,11 @@
       "en" : [ "'Ball of the Aunts': From the Interwar Period to Magic-City" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifeste_edition.json",
+    "label" : {
+      "fr" : [ "Atelier MSH Mondes" ]
+    },
+    "type" : "Manifest"
   } ]
 }
