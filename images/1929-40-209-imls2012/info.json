@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 66,
+    "height" : 122
+  }, {
+    "width" : 132,
+    "height" : 243
+  }, {
+    "width" : 263,
+    "height" : 486
+  }, {
+    "width" : 525,
+    "height" : 972
+  }, {
+    "width" : 1050,
+    "height" : 1944
+  }, {
+    "width" : 2100,
+    "height" : 3888
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2100,
+  "@id" : "https://margauxfre.github.io/test-manifests/images/1929-40-209-imls2012",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3888
+}
