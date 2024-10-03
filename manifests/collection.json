@@ -94,5 +94,11 @@
       "fr" : [ "Atelier MSH Mondes" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifeste_edition_MSH.json",
+    "label" : {
+      "fr" : [ "Atelier MSH Mondes" ]
+    },
+    "type" : "Manifest"
   } ]
 }
