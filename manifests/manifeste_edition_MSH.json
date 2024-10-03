@@ -1,0 +1,124 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://margauxfre.github.io/test-manifests/manifests/manifeste_edition_MSH.json",
+  "items" : [ {
+    "height" : 1200,
+    "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/1",
+    "items" : [ {
+      "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/1/annotation-page",
+      "items" : [ {
+        "body" : {
+          "id" : "https://margauxfre.github.io/test-manifests/images/1929-40-209-imls2012/full/full/0/default.jpg",
+          "type" : "Image"
+        },
+        "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/annotation/1-image",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/1",
+        "type" : "Annotation"
+      } ],
+      "type" : "AnnotationPage"
+    } ],
+    "label" : {
+      "none" : [ "Buddhist Guardian, Weituo" ]
+    },
+    "partOf" : [ {
+      "id" : "https://iiifiip.inha.fr/manifest/62a798e6-818b-11ef-a65a-b30c7786a22d.json",
+      "label" : {
+        "none" : [ "Buddhist Guardian, Weituo" ]
+      },
+      "type" : "Manifest"
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://margauxfre.github.io/test-manifests/images/1929-40-209-imls2012/full/full/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "type" : "Canvas",
+    "width" : 1800
+  }, {
+    "height" : 1200,
+    "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2",
+    "items" : [ {
+      "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2/annotation-page",
+      "items" : [ {
+        "body" : {
+          "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/full/full/0/default.jpg",
+          "type" : "Image"
+        },
+        "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/annotation/2-image",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2",
+        "type" : "Annotation"
+      } ],
+      "type" : "AnnotationPage"
+    } ],
+    "label" : {
+      "none" : [ "Guanyin as the Nine-Lotus Bodhisattva" ]
+    },
+    "partOf" : [ {
+      "id" : "https://iiifiip.inha.fr/manifest/62a74b48-818b-11ef-99e0-ff22a87802e5.json",
+      "label" : {
+        "none" : [ "Guanyin as the Nine-Lotus Bodhisattva" ]
+      },
+      "type" : "Manifest"
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/full/full/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "type" : "Canvas",
+    "width" : 1800
+  } ],
+  "label" : {
+    "fr" : [ "Atelier MSH Mondes" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "none" : [ "Date de création" ]
+    },
+    "value" : {
+      "none" : [ "2024-10-03T14:15:52.581Z" ]
+    }
+  } ],
+  "structures" : [ {
+    "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/range/r1",
+    "items" : [ {
+      "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/1",
+      "type" : "Canvas"
+    }, {
+      "height" : 1200,
+      "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2",
+      "items" : [ {
+        "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2/annotation-page",
+        "items" : [ {
+          "body" : {
+            "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/full/full/0/default.jpg",
+            "type" : "Image"
+          },
+          "id" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/annotation/2-image",
+          "motivation" : "painting",
+          "target" : "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2",
+          "type" : "Annotation"
+        } ],
+        "type" : "AnnotationPage"
+      } ],
+      "label" : {
+        "none" : [ "Guanyin as the Nine-Lotus Bodhisattva" ]
+      },
+      "partOf" : [ {
+        "id" : "https://iiifiip.inha.fr/manifest/62a74b48-818b-11ef-99e0-ff22a87802e5.json",
+        "label" : {
+          "none" : [ "Guanyin as the Nine-Lotus Bodhisattva" ]
+        },
+        "type" : "Manifest"
+      } ],
+      "thumbnail" : [ {
+        "id" : "https://margauxfre.github.io/test-manifests/images/DP-18087-001/full/full/0/default.jpg",
+        "type" : "Image"
+      } ],
+      "type" : "Canvas",
+      "width" : 1800
+    } ],
+    "type" : "Range"
+  } ],
+  "type" : "Manifest"
+}
