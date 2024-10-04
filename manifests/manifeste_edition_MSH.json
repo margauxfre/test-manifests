@@ -4,6 +4,8 @@
     "items": [
         {
             "id": "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/1",
+             "width" : 2100,
+            "height" : 3888,
             "items": [
                 {
                     "id": "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/1/annotation-page",
@@ -12,8 +14,6 @@
                             "body": {
                                 "id": "https://margauxfre.github.io/test-manifests/images/1929-40-209-imls2012/full/full/0/default.jpg",
                                 "type": "Image",
-                                "width" : 2100,
-                               "height" : 3888,
                                 "service": [
                                     {
                                         "id": "https://margauxfre.github.io/test-manifests/images/1929-40-209-imls2012",
@@ -57,6 +57,8 @@
         },
         {
             "id": "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2",
+            "width" : 2998,         
+            "height" : 4000,
             "items": [
                 {
                     "id": "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2/annotation-page",
@@ -65,8 +67,6 @@
                             "body": {
                                 "id": "https://margauxfre.github.io/test-manifests/images/DP-18087-001/full/full/0/default.jpg",
                                 "type": "Image",
-                                "width" : 2998,
-                                "height" : 4000,
                                 "service": [
                                     {
                                         "id": "https://margauxfre.github.io/test-manifests/images/DP-18087-001",
