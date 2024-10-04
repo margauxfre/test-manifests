@@ -53,7 +53,7 @@
                     "type": "Image"
                 }
             ],
-            "type": "Canvas",
+            "type": "Canvas"
         },
         {
             "id": "http://localhost:5000/prv27c51dd0-8405-460c-908c-6a9a60b4039c/manifest-edition/canvas/2",
@@ -106,7 +106,7 @@
                     "type": "Image"
                 }
             ],
-            "type": "Canvas",
+            "type": "Canvas"
         }
     ],
     "label": {
