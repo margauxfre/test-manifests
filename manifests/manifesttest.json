@@ -1,0 +1,632 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://margauxfre.github.io/test-manifests/manifests/manifesttest.json",
+  "type" : "Manifest",
+  "label" : {
+    "fr" : [ "Le Roi du Costume et son bibliothécaire. Introduction à la BAA de Jacques Doucet" ],
+    "en" : [ "The King of the Costum and his librarian. Introduction to Jacques Doucet's archeology and art library" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "none" : [ "Date de création du manifeste" ]
+    },
+    "value" : {
+      "none" : [ "2024-09-12T10:13:46.523Z" ]
+    }
+  }, {
+    "label" : {
+      "fr" : [ "Titre de l'article" ],
+      "en" : [ "Title of the article" ]
+    },
+    "value" : {
+      "fr" : [ "Le Roi du Costume et son bibliothécaire. Introduction à la BAA de Jacques Doucet" ],
+      "en" : [ "The King of the Costum and his librarian. Introduction to Jacques Doucet's archeology and art library" ]
+    }
+  }, {
+    "label" : {
+      "fr" : [ "Auteur de l'article" ]
+    },
+    "value" : {
+      "fr" : [ "Marie-Anne Sarda" ]
+    }
+  }, {
+    "label" : {
+      "fr" : [ "Editeur scientifique" ]
+    },
+    "value" : {
+      "fr" : [ "INHA" ]
+    }
+  } ],
+  "summary" : {
+    "fr" : [ "Si nécessaire, un résumé ou une légende à l'échelle du corpus" ]
+  },
+  "annotations" : [ {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/a",
+    "type" : "AnnotationPage",
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/a1",
+      "type" : "Annotation",
+      "motivation" : "tagging",
+      "body" : {
+        "type" : "TextualBody",
+        "language" : "fr",
+        "value" : "Jacques Doucet"
+      },
+      "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition"
+    }, {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/a2",
+      "type" : "Annotation",
+      "motivation" : "tagging",
+      "body" : {
+        "type" : "TextualBody",
+        "language" : "fr",
+        "value" : "bibliothèque d'art et d'archéologie"
+      },
+      "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition"
+    } ]
+  } ],
+  "requiredStatement" : {
+    "label" : {
+      "fr" : [ "Crédits" ]
+    },
+    "value" : {
+      "fr" : [ "INHA " ]
+    }
+  },
+  "items" : [ {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
+    "type" : "Canvas",
+    "height" : 1200,
+    "width" : 1800,
+    "label" : {
+      "fr" : [ "Portrait de Jacques Doucet" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiifiip.inha.fr/iiif/14e0898a-87e2-11ef-8a26-fd0b442f5476.tiff/full/536,800/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "Date" ]
+      },
+      "value" : {
+        "none" : [ "" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Titre" ]
+      },
+      "value" : {
+        "fr" : [ "Portrait de Jacques Doucet" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Créateur" ]
+      },
+      "value" : {
+        "fr" : [ "Man Ray" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Type" ]
+      },
+      "value" : {
+        "fr" : [ "tirage photographique" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Source" ]
+      },
+      "value" : {
+        "fr" : [ "Paris, bibliothèque littéraire Jacques Doucet, ING 56." ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/1-image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
+        "body" : {
+          "id" : "https://iiifiip.inha.fr/iiif/14e0898a-87e2-11ef-8a26-fd0b442f5476.tiff/full/full/0/default.jpg",
+          "type" : "Image"
+        }
+      } ]
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "fr" : [ "Crédits" ]
+      },
+      "value" : {
+        "fr" : [ "bibliothèque littéraire Jacques Doucet" ]
+      }
+    },
+    "partOf" : [ {
+      "id" : "https://iiifiip.inha.fr/manifest/14e0898a-87e2-11ef-8a26-fd0b442f5476.json",
+      "type" : "Manifest",
+      "label" : {
+        "none" : [ "Fig. 1_1906_J. Doucet par Man Ray(2)" ]
+      }
+    } ]
+  }, {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
+    "type" : "Canvas",
+    "height" : 1200,
+    "width" : 1800,
+    "label" : {
+      "none" : [ "René-Jean dans le jardin de l’hôtel particulier de Doucet rue Spontini" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiifiip.inha.fr/iiif/12fc7bce-87e2-11ef-bbce-214068f95bea.tiff/full/509,800/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "Date" ]
+      },
+      "value" : {
+        "none" : [ "Vers 1912" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Titre" ]
+      },
+      "value" : {
+        "fr" : [ "René-Jean dans le jardin de l’hôtel particulier de Doucet rue Spontini" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Créateur" ]
+      },
+      "value" : {
+        "fr" : [ "Anonyme" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Type" ]
+      },
+      "value" : {
+        "fr" : [ "Autochrome" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Source" ]
+      },
+      "value" : {
+        "fr" : [ "Collection particulière" ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/2-image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
+        "body" : {
+          "id" : "https://iiifiip.inha.fr/iiif/12fc7bce-87e2-11ef-bbce-214068f95bea.tiff/full/full/0/default.jpg",
+          "type" : "Image"
+        }
+      } ]
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "fr" : [ "Crédits" ]
+      },
+      "value" : {
+        "fr" : [ "Collection privée" ]
+      }
+    },
+    "partOf" : [ {
+      "id" : "https://iiifiip.inha.fr/manifest/12fc7bce-87e2-11ef-bbce-214068f95bea.json",
+      "type" : "Manifest",
+      "label" : {
+        "none" : [ "Fig. 2_1908_RJ_19 Spontini" ]
+      }
+    } ]
+  }, {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
+    "type" : "Canvas",
+    "height" : 1200,
+    "width" : 1800,
+    "label" : {
+      "none" : [ "Lettre de Jacques Doucet à un photographe, 12 août 1908" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiifiip.inha.fr/iiif/1320d9ba-87e2-11ef-ab52-4768538a09ad.tiff/full/503,800/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "Date" ]
+      },
+      "value" : {
+        "none" : [ "12 août 1908" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Titre" ]
+      },
+      "value" : {
+        "fr" : [ "Lettre de Jacques Doucet à un photographe" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Créateur" ]
+      },
+      "value" : {
+        "fr" : [ "Jacques Doucet" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Type" ]
+      },
+      "value" : {
+        "fr" : [ "Lettre manuscrite" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Source" ]
+      },
+      "value" : {
+        "fr" : [ "Paris, BINHA, Aut. 203/5." ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/3-image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
+        "body" : {
+          "id" : "https://iiifiip.inha.fr/iiif/1320d9ba-87e2-11ef-ab52-4768538a09ad.tiff/full/full/0/default.jpg",
+          "type" : "Image"
+        }
+      } ]
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "fr" : [ "Crédits" ]
+      },
+      "value" : {
+        "fr" : [ "INHA" ]
+      }
+    },
+    "partOf" : [ {
+      "id" : "https://iiifiip.inha.fr/manifest/1320d9ba-87e2-11ef-ab52-4768538a09ad.json",
+      "type" : "Manifest",
+      "label" : {
+        "none" : [ "Fig. 3 a_" ]
+      }
+    } ]
+  }, {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/4",
+    "type" : "Canvas",
+    "height" : 1200,
+    "width" : 1800,
+    "label" : {
+      "none" : [ "Lettre d’Etienne Deville à René-Jean, 18 août 1911" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiifiip.inha.fr/iiif/1363405c-87e2-11ef-9740-0b7d9cedd958.tiff/full/503,800/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "Date" ]
+      },
+      "value" : {
+        "none" : [ "18 août 1911" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Titre" ]
+      },
+      "value" : {
+        "fr" : [ "Lettre d’Etienne Deville à René-Jean" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Créateur" ]
+      },
+      "value" : {
+        "fr" : [ "Etienne Deville" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Contributeur" ]
+      },
+      "value" : {
+        "fr" : [ "René-Jean" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Type" ]
+      },
+      "value" : {
+        "fr" : [ "Lettre manuscrite" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Source" ]
+      },
+      "value" : {
+        "fr" : [ "Paris, BINHA, Aut. 143/2/189" ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/4/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/4-image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/4",
+        "body" : {
+          "id" : "https://iiifiip.inha.fr/iiif/1363405c-87e2-11ef-9740-0b7d9cedd958.tiff/full/full/0/default.jpg",
+          "type" : "Image"
+        }
+      } ]
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "fr" : [ "Crédits" ]
+      },
+      "value" : {
+        "fr" : [ "INHA" ]
+      }
+    },
+    "partOf" : [ {
+      "id" : "https://iiifiip.inha.fr/manifest/1363405c-87e2-11ef-9740-0b7d9cedd958.json",
+      "type" : "Manifest",
+      "label" : {
+        "none" : [ "Fig. 3 b_" ]
+      }
+    } ]
+  }, {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/5",
+    "type" : "Canvas",
+    "height" : 1200,
+    "width" : 1800,
+    "label" : {
+      "none" : [ "Lettre de Jacques Doucet à René-Jean, 31 janvier 1913" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066501z/f54/full/full/503,800/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "Date" ]
+      },
+      "value" : {
+        "none" : [ "31 janvier 1913" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Titre" ]
+      },
+      "value" : {
+        "fr" : [ "Lettre de Jacques Doucet à René-Jean," ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Créateur" ]
+      },
+      "value" : {
+        "fr" : [ "Jacques Doucet" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Contributeur" ]
+      },
+      "value" : {
+        "fr" : [ "René-Jean" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Type" ]
+      },
+      "value" : {
+        "fr" : [ "Lettre manuscrite" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Source" ]
+      },
+      "value" : {
+        "fr" : [ "Paris, BnF, Ms, Naf 13124, f. 32" ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/5/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/5-image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/5",
+        "body" : {
+          "id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066501z/f54/full/full/0/native.jpg",
+          "type" : "Image"
+        }
+      } ]
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "fr" : [ "Crédits" ]
+      },
+      "value" : {
+        "fr" : [ "BnF" ]
+      }
+    },
+    "partOf" : [ {
+      "id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066501z/manifest.json",
+      "type" : "Manifest",
+      "label" : {
+        "fr" : [ "Lettres de Jacques Doucet à René Jean, 1908-1929." ]
+      }
+    } ]
+  }, {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/6",
+    "type" : "Canvas",
+    "height" : 1200,
+    "width" : 1800,
+    "label" : {
+      "none" : [ "Etui à cigarettes de Jacques Doucet" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiifiip.inha.fr/iiif/14fe2d28-87e2-11ef-862d-71d5d48fd82a.tiff/full/full/503,800/0/default.jpg",
+      "type" : "Image"
+    } ],
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "Date" ]
+      },
+      "value" : {
+        "none" : [ "" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Titre" ]
+      },
+      "value" : {
+        "fr" : [ "Etui à cigarettes de Jacques Doucet" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Créateur" ]
+      },
+      "value" : {
+        "fr" : [ "" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Contributeur" ]
+      },
+      "value" : {
+        "fr" : [ "" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Type" ]
+      },
+      "value" : {
+        "fr" : [ "Objet en métal et or" ]
+      }
+    }, {
+      "label" : {
+        "fr" : [ "Source" ]
+      },
+      "value" : {
+        "fr" : [ "Paris, BINHA, Objets 16" ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/6/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/annotation/6-image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/6",
+        "body" : {
+          "id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9066501z/f54/full/full/0/native.jpg",
+          "type" : "Image"
+        }
+      } ]
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "fr" : [ "Crédits" ]
+      },
+      "value" : {
+        "fr" : [ "INHA" ]
+      }
+    },
+    "partOf" : [ {
+      "id" : "https://iiifiip.inha.fr/manifest/14fe2d28-87e2-11ef-862d-71d5d48fd82a.json",
+      "type" : "Manifest",
+      "label" : {
+        "fr" : [ "Fig. 4_BINHA_Objets 16_Monogramme(1)" ]
+      }
+    } ]
+  } ],
+  "structures" : [ {
+    "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r0",
+    "type" : "Range",
+    "items" : [ {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r1",
+      "type" : "Range",
+      "label" : {
+        "fr" : [ "Introduction" ]
+      },
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/1",
+        "type" : "Canvas",
+        "label" : {
+          "fr" : [ "Man Ray, Portrait de Jacques Doucet, tirage photographique ; Paris, bibliothèque littéraire Jacques Doucet, ING 56." ]
+        }
+      }, {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/2",
+        "type" : "Canvas",
+        "label" : {
+          "fr" : [ "René-Jean dans le jardin de l’hôtel particulier de Doucet rue Spontini, autochrome, vers 1912 ã coll. part." ]
+        }
+      } ]
+    }, {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r2",
+      "type" : "Range",
+      "label" : {
+        "fr" : [ "« Bibliothèque J. Doucet - Beaux-Arts Archéologie »" ]
+      },
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/2-1",
+        "type" : "Range",
+        "items" : [ {
+          "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/3",
+          "type" : "Canvas",
+          "label" : {
+            "fr" : [ "Lettre de Jacques Doucet à un photographe, 12 août 1908 ; Paris, BINHA, Aut. 203/5" ]
+          }
+        }, {
+          "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/4",
+          "type" : "Canvas",
+          "label" : {
+            "fr" : [ "Lettre d’Etienne Deville à René-Jean, 18 août 1911 ; Paris, BINHA, Aut. 143/2/189." ]
+          }
+        }, {
+          "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/5",
+          "type" : "Canvas",
+          "label" : {
+            "fr" : [ "Lettre de Jacques Doucet à René-Jean, 31 janvier 1913 ; Paris, BnF, Ms, Naf 13124, f. 32." ]
+          }
+        } ]
+      }, {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/6",
+        "type" : "Canvas",
+        "label" : {
+          "fr" : [ "Etui à cigarettes de Jacques Doucet, métal et or, 8,6×6,8×9 cm. ; Paris, BINHA, Objets 16. Le monogramme composé de deux J et D entrelacés à l'endroit et à l'envers et surmontés d’une tête de chat, est ici simplifié (les initiales entrelacées ne sont pas répétées à l’envers)." ]
+        }
+      } ]
+    }, {
+      "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/range/r3",
+      "type" : "Range",
+      "label" : {
+        "fr" : [ "Le premier cercle : les personnels permanents" ]
+      },
+      "items" : [ {
+        "id" : "http://localhost:5000/prv08b12f5b-cb38-464d-9f1d-2778136ea938/manifest-edition/canvas/5",
+        "type" : "Canvas",
+        "label" : {
+          "fr" : [ "Une autre légende spécifique à cette seconde utilisation de l'image du canevas 5 dans l'article" ]
+        }
+      } ]
+    } ]
+  } ]
+}
