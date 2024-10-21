@@ -100,5 +100,12 @@
       "fr" : [ "Atelier MSH Mondes" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifesttest.json",
+    "label" : {
+      "fr" : [ "Le Roi du Costume et son bibliothécaire. Introduction à la BAA de Jacques Doucet" ],
+      "en" : [ "The King of the Costum and his librarian. Introduction to Jacques Doucet's archeology and art library" ]
+    },
+    "type" : "Manifest"
   } ]
 }
