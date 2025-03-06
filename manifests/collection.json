@@ -138,5 +138,11 @@
       "fr" : [ "Voguing ou les normes excédées (Paris, 2015)" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifeste2(1).json",
+    "label" : {
+      "fr" : [ "Voguing ou les normes excédées (Paris, 2015)" ]
+    },
+    "type" : "Manifest"
   } ]
 }
