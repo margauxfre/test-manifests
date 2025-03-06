@@ -834,10 +834,10 @@
         "type" : "Canvas"
       } ],
       "label" : {"fr":  ["Partie 1 de l'article"]},
-      "annotations" : {
+      "annotations" : [{
         "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/rprvc219e929-6362-440c-b076-ca73a42466e9_annotations",
         "type" : "AnnotationPage"
-      },
+      }],
       "type" : "Range"
     }, {
       "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/rprv1836b35e-e0cd-4bd9-919d-250be026bb2a",
@@ -872,10 +872,10 @@
         "type" : "Canvas"
       } ],
       "label" : {"fr": ["Partie 3"]},
-      "annotations" : {
+      "annotations" : [{
         "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/rprv8482c664-4313-48ec-a473-28a0e8a286a9_annotations",
         "type" : "AnnotationPage"
-      },
+      }],
       "type" : "Range"
     } ],
     "type" : "Range"
