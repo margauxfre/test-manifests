@@ -114,5 +114,11 @@
       "en" : [ "The King of the Costum and his librarian. Introduction to Jacques Doucet's archeology and art library" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://margauxfre.github.io/test-manifests/manifests/manifeste2.json",
+    "label" : {
+      "fr" : [ "Voguing ou les normes excédées (Paris, 2015)" ]
+    },
+    "type" : "Manifest"
   } ]
 }
