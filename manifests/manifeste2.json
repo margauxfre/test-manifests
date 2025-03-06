@@ -827,13 +827,13 @@
           "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/canvas/prv8471b2d5-5792-4f29-9530-6c5970ff7a65",
           "type" : "Canvas"
         } ],
-        "label" : "sous-partie de la partie 1",
+        "label" : {"fr": ["sous-partie de la partie 1"]},
         "type" : "Range"
       }, {
         "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/canvas/prv8471b2d5-5792-4f29-9530-6c5970ff7a65",
         "type" : "Canvas"
       } ],
-      "label" : "Partie 1 de l'article",
+      "label" : {"fr":  ["Partie 1 de l'article"]},
       "annotations" : {
         "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/rprvc219e929-6362-440c-b076-ca73a42466e9_annotations",
         "type" : "AnnotationPage"
@@ -863,7 +863,7 @@
         "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/canvas/prv362721bf-8eef-4c9b-96ce-5b117bd5591d",
         "type" : "Canvas"
       } ],
-      "label" : "Partie 2",
+      "label" : {"fr": [ "Partie 2"]},
       "type" : "Range"
     }, {
       "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/rprv8482c664-4313-48ec-a473-28a0e8a286a9",
@@ -871,7 +871,7 @@
         "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/canvas/prva4b17583-e082-4758-baa3-50afb7997474",
         "type" : "Canvas"
       } ],
-      "label" : "Partie 3",
+      "label" : {"fr": ["Partie 3"]},
       "annotations" : {
         "id" : "http://localhost:5000/api/prve81b2a2c-edfb-4acf-b0af-94b184e5013e/manifest-edition/rprv8482c664-4313-48ec-a473-28a0e8a286a9_annotations",
         "type" : "AnnotationPage"
